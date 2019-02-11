@@ -4,8 +4,8 @@ Example of PHP multi version with Docker
 
 ## Builds
 ```
-docker build --file .docker/php5.dockerfile -t testphp5 .
-docker build --file .docker/php7.dockerfile -t testphp7 .
+docker build --file php5.dockerfile -t testphp5 .
+docker build --file php7.dockerfile -t testphp7 .
 ````
 
 ## Runs
